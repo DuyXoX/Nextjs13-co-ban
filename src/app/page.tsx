@@ -1,7 +1,9 @@
+'use client'
 import Link from 'next/link'
 import css from '@/styles/app.module.css'
 import x from '@/styles/x.module.css'
 import y from "@/styles/y.module.css"
+
 
 export default function Home() {
   return (
@@ -15,3 +17,5 @@ export default function Home() {
     </div>
   )
 }
+
+
